@@ -47,4 +47,4 @@ jobs:
         run: pnpm install
 
       - name: Coverage
-        run: pnpm run coverage
+        run: pnpm run test:coverage
