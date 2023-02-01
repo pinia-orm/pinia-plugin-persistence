@@ -1,7 +1,19 @@
 {
   "name": "@pinia-plugin-persistence/nuxt",
+  "type": "module",
   "version": "0.0.0",
   "description": "",
+  "exports": {
+    ".": {
+      "require": "./dist/module.cjs",
+      "import": "./dist/module.mjs"
+    }
+  },
+  "main": "./dist/module.cjs",
+  "types": "./dist/types.d.ts",
+  "files": [
+    "dist"
+  ],
   "author": "Elone Hoo <hi@elonehoo.me>",
   "license": "MIT",
   "keywords": [
@@ -10,7 +22,6 @@
     "plugin",
     "persistence"
   ],
-  "main": "index.js",
   "scripts": {
   }
 }
