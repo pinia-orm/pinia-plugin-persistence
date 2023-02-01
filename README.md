@@ -1,3 +1,3 @@
 <div align="center">
-  <img src="./public/logo.svg" wigth='100'>
+  <img src="./public/logo.svg" wigth='50'>
 </div>
