@@ -1,0 +1,36 @@
+{
+  "name": "pinia-plugin-persistence",
+  "version": "0.0.0",
+  "description": "Configurable persistence and rehydration of Pinia stores.",
+  "author": "Elone Hoo <hi@elonehoo.me>",
+  "license": "MIT",
+  "keywords": [
+    "pinia",
+    "plugin",
+    "persistence"
+  ],
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "require": "./dist/index.js",
+      "import": "./dist/index.mjs"
+    }
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch src"
+  },
+  "peerDependencies": {
+    "pinia": ">=2.0.0"
+  },
+  "devDependencies": {
+    "pinia": "^2.0.29",
+    "vue": "^3.2.45"
+  }
+}

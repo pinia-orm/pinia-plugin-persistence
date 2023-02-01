@@ -1,0 +1,16 @@
+{
+  "name": "@pinia-plugin-persistence/nuxt",
+  "version": "0.0.0",
+  "description": "",
+  "author": "Elone Hoo <hi@elonehoo.me>",
+  "license": "MIT",
+  "keywords": [
+    "nuxt",
+    "pinia",
+    "plugin",
+    "persistence"
+  ],
+  "main": "index.js",
+  "scripts": {
+  }
+}
