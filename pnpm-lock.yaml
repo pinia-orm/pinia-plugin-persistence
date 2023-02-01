@@ -74,7 +74,7 @@ importers:
     specifiers:
       '@vitejs/plugin-vue': ^4.0.0
       pinia: ^2.0.29
-      pinia-plugin-persistence: workspace:^0.0.0
+      pinia-plugin-persistence: workspace:*
       typescript: ^4.9.3
       vite: ^4.0.0
       vue: ^3.2.45
