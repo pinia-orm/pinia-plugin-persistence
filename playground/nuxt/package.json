@@ -1,0 +1,18 @@
+{
+  "name": "playground",
+  "private": "true",
+  "version": "0.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "nuxi dev"
+  },
+  "author": "Elone Hoo",
+  "license": "MIT",
+  "dependencies": {
+    "@pinia-plugin-persistence/nuxt": "workspace:*",
+    "@pinia/nuxt": "^0.4.6",
+    "nuxt": "^3.1.1",
+    "pinia": "^2.0.29",
+    "vue": "^3.2.45"
+  }
+}

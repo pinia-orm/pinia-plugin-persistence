@@ -13,6 +13,7 @@
   "scripts": {
     "dev": "pnpm run --filter \"./packages/**\" -r dev",
     "build": "pnpm run --filter \"./packages/**\" -r build",
+    "play:vue":"pnpm -C playground/vue run dev",
     "test": "vitest",
     "test:ui": "vitest --ui",
     "test:coverage": "vitest run --coverage",

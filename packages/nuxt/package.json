@@ -2,7 +2,7 @@
   "name": "@pinia-plugin-persistence/nuxt",
   "type": "module",
   "version": "0.0.0",
-  "description": "",
+  "description": "Configurable persistence and rehydration of Pinia stores.",
   "exports": {
     ".": {
       "require": "./dist/module.cjs",
@@ -23,7 +23,8 @@
     "persistence"
   ],
   "scripts": {
-    "build": "nuxt-module-build"
+    "build": "nuxt-module-build",
+    "dev": "nuxt-module-build"
   },
   "dependencies": {
     "@nuxt/kit": "^3.1.1",
