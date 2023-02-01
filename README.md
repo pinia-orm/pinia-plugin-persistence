@@ -27,14 +27,14 @@
 import { defineStore } from 'pinia'
 
 export const useStore = defineStore(
-	'main',
-	() => {
-		const someState = ref('Hello Pinia')
-		return { someState }
-	},
-	{
-		persist: true,
-	}
+  'main',
+  () => {
+    const someState = ref('Hello Pinia')
+    return { someState }
+  },
+  {
+    persist: true,
+  }
 )
 ```
 
