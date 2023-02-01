@@ -1,8 +1,7 @@
 {
-  "name": "playground",
+  "name": "@pinia-plugin-persistence/playground-nuxt",
   "private": "true",
   "version": "0.0.0",
-  "description": "",
   "scripts": {
     "dev": "nuxi dev"
   },
