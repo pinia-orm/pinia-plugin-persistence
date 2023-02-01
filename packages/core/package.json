@@ -1,6 +1,6 @@
 {
   "name": "pinia-plugin-persistence",
-  "version": "0.0.0",
+  "version": "0.0.1-beta.0",
   "description": "Configurable persistence and rehydration of Pinia stores.",
   "author": "Elone Hoo <hi@elonehoo.me>",
   "license": "MIT",
