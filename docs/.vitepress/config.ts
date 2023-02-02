@@ -61,5 +61,39 @@ export default defineConfig({
         ],
       },
     ],
+    sidebar: {
+      '/':[
+        {
+          text: 'Guide',
+          items: [
+            {
+              text: 'Why this plugin',
+              link: '/guide/why',
+            },
+            {
+              text: 'Getting Started',
+              link: '/guide/',
+            },
+            {
+              text: 'Limitations',
+              link: '/guide/limitations',
+            },
+            {
+              text: 'Advanced Usage',
+              link: '/guide/advanced',
+            },
+          ],
+        },
+        {
+          text:'Config',
+          items:[
+            {
+              text:'Config Reference',
+              link:'/config/'
+            }
+          ]
+        }
+      ]
+    }
   },
 })
