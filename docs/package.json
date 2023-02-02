@@ -1,0 +1,22 @@
+{
+  "name": "@pinia-plugin-persistence/docs",
+  "private": "true",
+  "version": "0.0.0",
+  "scripts": {
+    "dev":"vitepress dev",
+    "build": "vitepress build",
+    "serve": "vitepress serve"
+  },
+  "author": "Elone Hoo <hi@elonehoo.me>",
+  "license": "MIT",
+  "dependencies": {
+    "@iconify-json/carbon": "^1.1.14",
+    "@unocss/reset": "^0.49.2",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "@vueuse/core": "^9.12.0",
+    "unocss": "^0.49.2",
+    "vite": "^4.0.4",
+    "vitepress": "1.0.0-alpha.45",
+    "vue": "^3.2.45"
+  }
+}
