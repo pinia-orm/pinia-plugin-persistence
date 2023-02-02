@@ -1,0 +1,1 @@
+# pinia-plugin-persistence
