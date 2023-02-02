@@ -9,6 +9,7 @@ export const font = `${googleapis}/css2?family=Readex+Pro:wght@200;400;600&displ
 
 /* GitHub and social links */
 export const github = 'https://github.com/elonehoo/pinia-plugin-persistence'
-export const releases = 'https://github.com/elonehoo/pinia-plugin-persistence/releases'
+export const releases = `${github}/releases`
+export const editLink = `${github}/tree/main/docs/:path`
 export const discord = 'https://discord.gg/Fry7332ar7'
 export const twitter = 'https://twitter.com/elonehoo'
