@@ -17,7 +17,7 @@ export const useStore = defineStore('main', {
     someState: 'hello pinia',
   }),
   persist: {
-    // CONFIG OPTIONS HERE
+    // config options here
   },
 })
 ```
