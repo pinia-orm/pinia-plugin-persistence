@@ -63,3 +63,11 @@ export const useStore = defineStore(
 ## Using Unreleased Commits
 
 If you can't wait for a new release to test the latest features, you will need to clone the [plugin repo](https://github.com/elonehoo/pinia-plugin-persistence) to your local machine and then build and link it yourself ([pnpm](https://pnpm.io/) is required):
+
+```sh
+git clone git@github.com:elonehoo/pinia-plugin-persistence.git
+cd pinia-plugin-persistence
+pnpm install
+pnpm run build
+pnpm link --global # you can use your preferred package manager for this step
+```
