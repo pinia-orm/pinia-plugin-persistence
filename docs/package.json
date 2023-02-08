@@ -11,13 +11,13 @@
   "license": "MIT",
   "dependencies": {
     "@iconify-json/carbon": "^1.1.14",
-    "@unocss/reset": "^0.49.2",
+    "@unocss/reset": "^0.49.4",
     "@vitejs/plugin-vue": "^4.0.0",
     "@vueuse/core": "^9.12.0",
-    "unocss": "^0.49.2",
-    "vite": "^4.0.4",
+    "unocss": "^0.49.4",
+    "vite": "^4.1.1",
     "vitepress": "1.0.0-alpha.45",
-    "vue": "^3.2.45"
+    "vue": "^3.2.47"
   },
   "devDependencies": {
     "@elonehoo/vitepress-plugin-detype": "^0.0.1",

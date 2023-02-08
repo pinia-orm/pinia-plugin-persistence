@@ -25,18 +25,18 @@
     "lint:fix": "eslint . --fix"
   },
   "dependencies": {
-    "@vitest/coverage-c8": "^0.28.3",
-    "@vitest/ui": "^0.28.3",
-    "happy-dom": "^8.2.2",
-    "vitest": "^0.28.3"
+    "@vitest/coverage-c8": "^0.28.4",
+    "@vitest/ui": "^0.28.4",
+    "happy-dom": "^8.2.6",
+    "vitest": "^0.28.4"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.35.1",
-    "@types/node": "^18.11.18",
+    "@types/node": "^18.11.19",
     "bumpp": "^8.2.1",
     "eslint": "^8.33.0",
     "tsup": "^6.5.0",
     "typescript": "^4.9.5",
-    "vite": "^4.0.4"
+    "vite": "^4.1.1"
   }
 }
