@@ -30,7 +30,7 @@
     "pinia": ">=2.0.0"
   },
   "devDependencies": {
-    "pinia": "^2.0.30",
+    "pinia": "^2.0.32",
     "vue": "^3.2.47"
   }
 }

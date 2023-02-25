@@ -14,9 +14,9 @@
     "dev": "pnpm run --filter \"./packages/**\" -r dev",
     "build": "pnpm run --filter \"./packages/**\" -r build",
     "play:vue": "pnpm -C playground/vue run dev",
-    "docs:dev":"pnpm -C docs run dev",
-    "docs:build":"pnpm -C docs run build",
-    "docs:serve":"pnpm -C docs run serve",
+    "docs:dev": "pnpm -C docs run dev",
+    "docs:build": "pnpm -C docs run build",
+    "docs:serve": "pnpm -C docs run serve",
     "release": "bumpp package.json packages/*/package.json --commit --push --tag && pnpm -r publish --access public",
     "test": "vitest",
     "test:ui": "vitest --ui",
@@ -25,18 +25,18 @@
     "lint:fix": "eslint . --fix"
   },
   "dependencies": {
-    "@vitest/coverage-c8": "^0.28.4",
-    "@vitest/ui": "^0.28.4",
-    "happy-dom": "^8.2.6",
-    "vitest": "^0.28.4"
+    "@vitest/coverage-c8": "^0.28.5",
+    "@vitest/ui": "^0.28.5",
+    "happy-dom": "^8.9.0",
+    "vitest": "^0.28.5"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^0.35.1",
-    "@types/node": "^18.11.19",
-    "bumpp": "^8.2.1",
-    "eslint": "^8.33.0",
-    "tsup": "^6.5.0",
+    "@antfu/eslint-config": "^0.35.3",
+    "@types/node": "^18.14.1",
+    "bumpp": "^9.0.0",
+    "eslint": "^8.34.0",
+    "tsup": "^6.6.3",
     "typescript": "^4.9.5",
-    "vite": "^4.1.1"
+    "vite": "^4.1.4"
   }
 }
