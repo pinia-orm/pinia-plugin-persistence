@@ -1,6 +1,6 @@
 {
   "name": "@pinia-plugin-persistence/monorepo",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "private": "true",
   "description": "Configurable persistence and rehydration of Pinia stores.",
   "author": "Elone Hoo <hi@elonehoo.me>",
