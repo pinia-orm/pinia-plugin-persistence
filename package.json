@@ -14,6 +14,7 @@
     "dev": "pnpm run --filter \"./packages/**\" -r dev",
     "build": "pnpm run --filter \"./packages/**\" -r build",
     "play:vue": "pnpm -C playground/vue run dev",
+    "play:nuxt": "pnpm -C playground/nuxt run dev",
     "docs:dev": "pnpm -C docs run dev",
     "docs:build": "pnpm -C docs run build",
     "docs:serve": "pnpm -C docs run serve",
@@ -25,16 +26,16 @@
     "lint:fix": "eslint . --fix"
   },
   "dependencies": {
-    "@vitest/coverage-c8": "^0.28.5",
-    "@vitest/ui": "^0.28.5",
+    "@vitest/coverage-c8": "^0.29.1",
+    "@vitest/ui": "^0.29.1",
     "happy-dom": "^8.9.0",
-    "vitest": "^0.28.5"
+    "vitest": "^0.29.1"
   },
   "devDependencies": {
     "@antfu/eslint-config": "^0.35.3",
-    "@types/node": "^18.14.1",
+    "@types/node": "^18.14.2",
     "bumpp": "^9.0.0",
-    "eslint": "^8.34.0",
+    "eslint": "^8.35.0",
     "tsup": "^6.6.3",
     "typescript": "^4.9.5",
     "vite": "^4.1.4"

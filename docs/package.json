@@ -16,7 +16,7 @@
     "@vueuse/core": "^9.13.0",
     "unocss": "^0.50.1",
     "vite": "^4.1.4",
-    "vitepress": "1.0.0-alpha.47",
+    "vitepress": "1.0.0-alpha.48",
     "vue": "^3.2.47"
   },
   "devDependencies": {
