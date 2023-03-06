@@ -26,14 +26,14 @@
     "lint:fix": "eslint . --fix"
   },
   "dependencies": {
-    "@vitest/coverage-c8": "^0.29.1",
-    "@vitest/ui": "^0.29.1",
+    "@vitest/coverage-c8": "^0.29.2",
+    "@vitest/ui": "^0.29.2",
     "happy-dom": "^8.9.0",
-    "vitest": "^0.29.1"
+    "vitest": "^0.29.2"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^0.35.3",
-    "@types/node": "^18.14.2",
+    "@antfu/eslint-config": "^0.36.0",
+    "@types/node": "^18.14.6",
     "bumpp": "^9.0.0",
     "eslint": "^8.35.0",
     "tsup": "^6.6.3",

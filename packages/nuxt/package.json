@@ -27,14 +27,14 @@
     "dev": "nuxt-module-build"
   },
   "dependencies": {
-    "@nuxt/kit": "^3.2.2",
+    "@nuxt/kit": "^3.2.3",
     "pinia-plugin-persistence": "workspace:*"
   },
   "devDependencies": {
     "@nuxt/module-builder": "^0.2.1",
-    "@nuxt/schema": "^3.2.2",
+    "@nuxt/schema": "^3.2.3",
     "@pinia/nuxt": "^0.4.7",
-    "nuxt": "^3.2.2",
+    "nuxt": "^3.2.3",
     "pinia": "^2.0.32"
   }
 }
