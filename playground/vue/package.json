@@ -9,7 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "pinia": "^2.0.32",
+    "pinia": "^2.0.33",
     "pinia-plugin-persistence": "workspace:*",
     "vue": "^3.2.47"
   },
